@@ -1,5 +1,3 @@
-[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
-
 # Personal Portfolio
 
 My personal portfolio which features the most recent projects I worked on as well as my resume and technical skills. \

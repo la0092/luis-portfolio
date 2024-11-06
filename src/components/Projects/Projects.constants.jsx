@@ -10,13 +10,13 @@ import ohiohealth from "../../assets/images/projects/ohiohealth.png";
 import cryptocurrency from "../../assets/images/projects/cc.png";
 import azurecloudexams from "../../assets/images/projects/azurecloudexams.png";
 
-import inmoldapp from "../../assets/images/projects/inmoldapp.png";
+import bswapp from "../../assets/images/projects/bswapp.png";
 import ohioapp from "../../assets/images/projects/ohioapp.png";
 
-import smarthome from "../../assets/images/projects/smarthome.png";
-import godofwar from "../../assets/images/projects/godofwar.png";
-import vclp from "../../assets/images/projects/vclp.png";
-import vibenow from "../../assets/images/projects/vibenow.png";
+import azure from "../../assets/images/projects/azure.png";
+import aws from "../../assets/images/projects/aws.png";
+import gcp from "../../assets/images/projects/gcp.png";
+import databricks from "../../assets/images/projects/databricks.png";
 
 export const web = [
   {
@@ -35,7 +35,7 @@ export const web = [
     links: [{ icon: webLink, link: "https://pandora.com/" }],
   },
   {
-    name: "Inmold",
+    name: "Baylor Scott & White Health ",
     date: "2022-04-30",
     cover: bswhealth,
     links: [
@@ -66,56 +66,55 @@ export const web = [
   }
 ];
 
-export const design = [
+export const data = [
   {
-    name: "Smart Home Dashboard UI",
+    name: "Microsoft Azure",
     date: "2022-04-03",
-    cover: smarthome,
+    cover: azure,
     links: [
       // { icon: dribbbleLink, link: "https://dribbble.com/shots/17912071-Smart-Home-Dashboard-UI" }
     ],
   },
   {
-    name: "God of War Concept UI",
+    name: "Amazon Web Service",
     date: "2022-03-13",
-    cover: godofwar,
+    cover: aws,
     links: [
       // { icon: dribbbleLink, link: "https://dribbble.com/shots/17710279-God-of-War-Website-design" }
     ],
   },
   {
-    name: "Vice City Conceput UI",
+    name: "Google Cloud Platform",
     date: "2022-08-14",
-    cover: vclp,
+    cover: gcp,
     links: [
       // { icon: dribbbleLink, link: "https://dribbble.com/shots/19100552-Welcome-back-to-Vice-City-Landing-page" },
       // { icon: ytLink, link: "https://www.youtube.com/watch?v=ysBkWUQMLHQ" },
     ],
   },
   {
-    name: "Vibe Now UI",
+    name: "Databricks",
     date: "2022-10-28",
-    cover: vibenow,
+    cover: databricks,
     links: [
       // { icon: dribbbleLink, link: "https://dribbble.com/shots/20106594-Vibe-Now-Mobile-app-for-events" }
     ],
   },
 ];
 
-export const mobile = [
+export const app = [
   {
-    name: "Internal Mobile Apps in Inmold",
+    name: "Internal Apps in BSW Health",
     date: "2020-05-01",
-    cover: inmoldapp,
-    links: [{ icon: webLink, link: "https://inmold-ltd.com/en/iml-system/" }],
+    cover: bswapp,
+    links: [{ icon: webLink, link: "https://www.bswhealth.com/" }],
   },
   {
-    name: "OhioHealth",
+    name: "Internal Apps in OhioHealth",
     date: "2023-11-23",
     cover: ohioapp,
     links: [
       { icon: webLink, link: "https://play.google.com/store/apps/details?id=com.ohiohealth.mychart&hl=en" },
-      { icon: webLink, link: "https://apps.apple.com/us/app/ohiohealth/id1064224526" }
     ],
   },
 ];

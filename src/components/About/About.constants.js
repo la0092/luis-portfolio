@@ -1,5 +1,5 @@
 import webIcon from '../../assets/images/icons/web.png';
-import appIcon from '../../assets/images/icons/mob.png';
+import appIcon from '../../assets/images/icons/csharp.png';
 import dataIcon from '../../assets/images/icons/re.png';
 
 export const SKILLS = [
